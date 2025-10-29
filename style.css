@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #0e0e0e;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+  font-size: 24px;
+  color: #00bcd4;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #000, #1a1a1a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 span {
+  color: #00bcd4;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #00bcd4;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+
+/* Sections */
+section {
+  padding: 80px 100px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #00bcd4;
+}
+
+/* Skills */
+.skill-list span {
+  background: #1f1f1f;
+  padding: 10px 15px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #00bcd4;
+}
+
+/* Projects */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  background: #272727;
+}
+
+/* Contact */
+.contact-links a {
+  display: inline-block;
+  margin: 10px;
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #777;
+  font-size: 14px;
+}
